@@ -118,7 +118,7 @@ function onPictureClick(event) {
 function onCloseBtnClick() {
   modalRef.classList.remove('is-open');
   window.removeEventListener('keydown', onEscBtnPress);
-
+  imageRef.src = '';
 }
 
 function onBackdropClick(event) {
